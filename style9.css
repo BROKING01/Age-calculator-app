@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: hsl(0, 0%, 86%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+}
+main{
+    background-color: white;
+    width: 700px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 100px;
+}
+section{
+    padding: 50px;
+}
+main .all{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+main .all .day, .month, .year{
+    color: hsl(0, 1%, 44%);
+    font-size: 15px;
+    padding-left: 4px;
+    padding-bottom: 3px;
+}
+main .all input{
+    width: 120px;
+    padding: 12px;
+    font-size: 24px;
+    border-radius: 10px;
+    border: 1px solid hsl(0, 0%, 86%);
+    font-weight: 800;
+}
+main .all input::placeholder{
+    font-weight: 800;
+}
+main .error1, .error2, .error3{
+    color: hsl(0, 100%, 67%);
+    font-size: 12px;
+    font-weight: 400;
+}
+main .error1a, .error2a, .error3a{
+    color: hsl(0, 100%, 67%);
+    font-size: 12px;
+    font-weight: 400;
+}
+.btn {
+    text-align: end;
+}
+button{
+    margin-top: -35px;
+    border-radius: 50%;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: hsl(259, 100%, 65%);
+}
+button:hover{
+    background-color: black;
+}
+
+hr{
+    width: 92%;
+}
+.hidden{
+    display: none;
+}
+.result{
+    font-size: 50px;
+}
+.result h1{
+    font-weight: 800;
+    font-style: italic;
+}
+.result span{
+    padding-right: 10px;
+    color: hsl(259, 100%, 65%);
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style9.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section>
+            <form>
+                <div class="all">
+                <div class="one">
+                    <p class="day">DAY</p>
+                    <input type="number" id="day" placeholder="DD">
+                    <p class="error1 hidden">This field is required</p>
+                    <p class="error1a hidden">Must be a valid day</p>
+                </div>
+                <div class="one">
+                    <p class="month">MONTH</p>
+                    <input type="number" id="month" placeholder="MM">
+                    <p class="error2 hidden">This field is required</p>
+                    <p class="error2a hidden">Must be a valid month</p>
+                </div>
+                <div class="one">
+                    <p class="year">YEAR</p>
+                    <input type="number" id="year" placeholder="YYYY">
+                    <p class="error3 hidden">This field is required</p>
+                    <p class="error3a hidden">Must be a valid day</p>
+                </div>
+                </div>
+                <div class="btn">
+                    <hr>
+                <button class="submit" type="submit"><img src="icon-arrow copy 2.svg" alt=""></button>
+                </div>
+            </form>
+            <div class="result">
+                <h1><span id="numyear">--</span>years</h1>
+                <h1><span id="nummonth">--</span>months</h1>
+                <h1><span id="numday">--</span>days</h1>
+            </div>
+        </section>
+    </main>
+    <script src="main9.js"></script>
+</body>
+</html>
